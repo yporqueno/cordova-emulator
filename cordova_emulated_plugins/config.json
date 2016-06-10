@@ -1,0 +1,46 @@
+{
+	"platform_target": "browser",
+
+	"plugins": {
+		"navigator": {
+			"android": "android.js",
+			"ios": "ios.js",
+			"browser": "browser.js"
+		},
+		"cordova-plugin-network-information": {
+			"android": "common.js",
+			"ios": "common.js",
+			"browser": "common.js"
+		},
+		"cordova-plugin-device": {
+			"android": "android.js",
+			"ios": "ios.js",
+			"browser": "browser.js"
+		},
+		"cordova-plugin-testfairy": {
+			"android": "common.js",
+			"ios": "common.js",
+			"browser": "common.js"
+		},
+		"cordova-plugin-x-socialsharing": {
+			"android": "common.js",
+			"ios": "common.js",
+			"browser": "common.js"
+		},
+		"cordova-plugin-dialogs": {
+			"android": "common.js",
+			"ios": "common.js",
+			"browser": "common.js"
+		},
+		"cordova-plugin-camera": {
+			"android": "common.js",
+			"ios": "common.js",
+			"browser": "common.js"
+		},
+		"merge": {
+			"android": "common.js",
+			"ios": "common.js",
+			"browser": "common.js"
+		}
+	}
+}
