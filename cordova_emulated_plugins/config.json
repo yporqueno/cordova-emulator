@@ -22,6 +22,11 @@
 			"ios": "common.js",
 			"browser": "common.js"
 		},
+		"cordova-app-version": {
+			"android": "common.js",
+			"ios": "common.js",
+			"browser": "common.js"
+		},
 		"cordova-plugin-x-socialsharing": {
 			"android": "common.js",
 			"ios": "common.js",

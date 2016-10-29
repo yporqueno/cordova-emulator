@@ -10,7 +10,7 @@ To use you only have to copy cordova.js and cordova_emulated_plugins to the www 
 -- cordova_emulated_plugins
 ```
 
-You can fonfigure platform target in cordova_emulated_plugins/config.json file
+You can fonfigure platform target in cordova_emulated_plugins/config.json file.
 Possible values are: "android", "ios", "browser"...
 
 ```javascript
@@ -47,4 +47,4 @@ Possible values are: "android", "ios", "browser"...
 }
 ```
 
-You can add/remove/modify your plugins list in cordova_emulated_plugins/config.json, and the js files you want to execute when lounch your proyect in a browser.
+You can add/remove/modify your plugins list in cordova_emulated_plugins/config.json, and the js files you want to execute when you launch your proyect in a browser.
