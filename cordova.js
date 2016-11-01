@@ -26,7 +26,7 @@ OTHER DEALINGS IN THE SOFTWARE.
 
 document.addEventListener('DOMContentLoaded', function(){
 
-	var _path = 'cordova_emulated_plugins/';
+	var PATH = 'cordova_emulated_plugins/';
 
 	function init () {
 		getConfig();
@@ -35,12 +35,12 @@ document.addEventListener('DOMContentLoaded', function(){
 
 	function getConfig() {
 		var files = [];
-		ajax(_path + 'config.json', function(data){
+		ajax(PATH + 'config.json', function(data){
 			for (var plugin in data.plugins) {
 				for (var platform in data.plugins[plugin]) {
 					if(platform === data.platform_target){
-						//console.log('plugin: ', _path, plugin, data.plugins[plugin][platform]);
-						files.push(_path + plugin + '/' + data.plugins[plugin][platform]);
+						//console.log('plugin: ', PATH, plugin, data.plugins[plugin][platform]);
+						files.push(PATH + plugin + '/' + data.plugins[plugin][platform]);
 					}
 				}
 			}
@@ -103,7 +103,6 @@ document.addEventListener('DOMContentLoaded', function(){
 	init();
 
 }, false);
-
 
 
 

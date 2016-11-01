@@ -7,6 +7,11 @@
 			"ios": "ios.js",
 			"browser": "browser.js"
 		},
+		"cordova-plugin-app-version": {
+			"android": "common.js",
+			"ios": "common.js",
+			"browser": "common.js"
+		},
 		"cordova-plugin-network-information": {
 			"android": "common.js",
 			"ios": "common.js",
@@ -18,11 +23,6 @@
 			"browser": "browser.js"
 		},
 		"cordova-plugin-testfairy": {
-			"android": "common.js",
-			"ios": "common.js",
-			"browser": "common.js"
-		},
-		"cordova-app-version": {
 			"android": "common.js",
 			"ios": "common.js",
 			"browser": "common.js"

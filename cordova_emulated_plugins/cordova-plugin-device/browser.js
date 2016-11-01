@@ -1,4 +1,2 @@
-(function(){
-	window.device = {
-	};
-})();
+window.device = window.device || {
+};
