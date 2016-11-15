@@ -2,12 +2,12 @@
 Emulates cordova.js file in browser to develop cordova/phonegap apps via web.
 
 # Installation
-To use you only have to copy cordova.js and cordova_emulated_plugins to the www cordova project folder.
+To use you only have to copy cordova.js and cordova_emulated_plugins to your cordova project folder.
 
 ```
+- cordova_emulated_plugins
 - www
 -- cordova.js
--- cordova_emulated_plugins
 ```
 
 You can fonfigure platform target in cordova_emulated_plugins/config.json file.
