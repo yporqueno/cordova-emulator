@@ -1,6 +1,6 @@
 window.cordova = window.cordova || {};
 window.cordova.file = window.cordova.file || {
-	//dataDirectory:"file:///data/user/0/io.cordova.cards/files/",
+	//dataDirectory:"file:///data/user/0/io.cordova.appname/files/",
 	dataDirectory:"/",
 };
 
