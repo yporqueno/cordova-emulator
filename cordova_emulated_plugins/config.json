@@ -42,6 +42,16 @@
 			"ios": "common.js",
 			"browser": "common.js"
 		},
+		"cordova-plugin-file": {
+			"android": "common.js",
+			"ios": "common.js",
+			"browser": "common.js"
+		},
+		"cordova-plugin-filechooser": {
+			"android": "common.js",
+			"ios": "common.js",
+			"browser": "common.js"
+		},
 		"merge": {
 			"android": "common.js",
 			"ios": "common.js",

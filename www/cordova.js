@@ -26,7 +26,7 @@ OTHER DEALINGS IN THE SOFTWARE.
 
 document.addEventListener('DOMContentLoaded', function(){
 
-	var PATH = 'cordova_emulated_plugins/';
+	var PATH = '../cordova_emulated_plugins/';
 
 	function init () {
 		getConfig();
@@ -54,8 +54,10 @@ document.addEventListener('DOMContentLoaded', function(){
 
 	function loadFiles(files) {
 		var alreadyLoaded = 0;
-		for(var f in files) {
-			ajax(files[f], success, error);
+		loadFileByIndex(alreadyLoaded);
+
+		function loadFileByIndex(index) {
+			ajax(files[index], success, error);
 		}
 
 		function success(data){
@@ -64,6 +66,8 @@ document.addEventListener('DOMContentLoaded', function(){
 			if(alreadyLoaded >= files.length){
 				filesLoaded();
 				return;
+			}else{
+				loadFileByIndex(alreadyLoaded);
 			}
 		}
 
